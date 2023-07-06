@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  display: flex;
+  height: 100vh;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    position: absolute;
+    text-align: center;
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+img {
+    margin-bottom: 30px;
+  }
+  
+h1 {
+    font-family: "Big Shoulders Display", sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 25px;
+  }
+  
+button {
+    position: absolute;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    width: 145px;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid hsl(0, 0%, 95%);
+    font-family: "Lexend Deca, sans-serif";
+    transition: .5s;
+    bottom: 45px;
+  }
+
+a {
+    color: hsl(0, 0%, 95%);
+    text-decoration: none;
+}
+
+div>p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+  }
+
+button:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+  }
+
+a:hover {
+    color: hsl(179, 100%, 13%);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.sedan, .suv, .luxury{
+    width: 280px;
+    height: 450px;
+    padding: 40px;
+    position: relative;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0 0 7px;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 7px 7px 0;
+}
+
+.sedan button {
+  background: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+}
+
+.suv button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+}
+
