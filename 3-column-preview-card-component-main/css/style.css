@@ -14,6 +14,10 @@ body {
   display: flex;
   height: 100vh;
   color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 footer {
@@ -71,15 +75,6 @@ button:hover {
 
 a:hover {
     color: hsl(179, 100%, 13%);
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
 .sedan, .suv, .luxury{
